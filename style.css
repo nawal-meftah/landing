@@ -1,0 +1,258 @@
+/* Navigation Bar design */
+body{
+	margin: 0;
+	padding:0;
+}
+
+header{
+	background: #595959;
+	color:#ffffff;
+}
+
+header h1 {
+	margin: 0;
+	display: inline;
+}
+nav ul{
+	float: center;
+	margin:0;
+	padding: 0 0 0 25px;
+	display: inline;
+}
+
+nav ul li{
+	float: center;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	margin: 20px 15px 10px 30px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	text-align:center;
+	color: white;
+}
+
+/* Write some CSS below */
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px; 
+	color: rgb(50,50,50);
+	background-color: rgb(255,255,255);
+	margin:0px;
+	letter-spacing: 1px;
+}
+h1 {font-family: 'Roboto', sans-serif;
+	color: rgb(255,255,255);
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+    color: rgb(0,0,0)
+}
+
+a{
+	color: #3049DE;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color:green;
+}
+
+/* Custom class design */
+
+.button-blue{
+	background-color: #3049DE;
+	color: white;
+	padding: 20px 25px;
+	border-radius: 15px;
+}
+
+.banner{
+	background-image: url(images/Background.jpg);
+    background-size: cover; 
+    color: white;
+    text-align: center;
+    padding: 120px 0px;
+
+}
+.banner h1{
+	font-size: 40px;
+
+}
+.banner p{
+	font-size: 35px;
+	opacity: 0.9;
+	margin-bottom: 50px;
+}
+
+.workout{
+	background-color: white;
+	border-radius:8px;
+	box-shadow: 0 0 20px rgba (233,144,7, 0.7);
+	padding: 18px; 
+	margin:20px;
+}
+
+
+.program-white{
+	width: 298px;
+	border: 1px inset #ffffff;
+	margin: 20px 10px;
+	padding: 0 5px;
+	float: left;
+
+}
+
+.program-white > p {
+	font-size: 14px;
+	color: #636363;
+	max-width: 250px;
+	text-align: left;
+}
+
+.program-white1{
+	width: 298px;
+	border: 1px inset #ffffff;
+	margin: 20px 10px;
+	padding: 0 5px;
+	float: left;
+}
+
+.program-white1 > p {
+	font-size: 14px;
+	color: #636363;
+	max-width: 250px;
+}
+
+.program-white2{
+	width: 298px;
+	border: 1px inset #ffffff;
+	margin: 20px 10px;
+	padding: 0 5px;
+	float: left;
+}
+
+.program-white2 > p {
+	font-size: 14px;
+	color: #636363;
+	max-width: 250px;
+
+}
+
+
+.workout {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	margin: 50px 0 50px 0;
+	letter-spacing: 3px;
+}
+
+h3 {
+	font-size:16px;
+	font-weight: bold;
+	background-color: white;
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+	letter-spacing: 2px;
+	top: 100px;
+}
+
+.image {
+	max-width: 250px;
+	max-height: 150px;
+	margin: 20px 25px ;
+}
+
+.image1 {
+	max-width: 250px;
+	max-height: 2000px;
+	margin: 20px 25px ;
+}
+
+.image2 {
+	max-width: 250px;
+	max-height: 150px;
+	margin: 20px 25px ;
+}
+
+.image{
+	height:100%;
+	width: 100%;
+	background: url(images/Start Training.jpg);
+	bottom:0;
+	background-size: 50% 50%;
+	border-radius: 8px;
+	transition: 1s;
+}
+
+.program-white:hover .image{
+	transform: scale(0.5, 0.35); translate:(-650px); 
+	background-size: 100% 150%;
+	background-position: 0 -25px;
+}
+
+.image1{
+	height:100%;
+	width: 100%;
+	background: url(images/Background1.jpg);
+	bottom:0;
+	background-size: 100% 100%;
+	border-radius: 8px;
+	transition: 1s;
+}
+
+.program-white1:hover .image1{
+	transform: scale(0.5, 0.35); translate:(-750px); 
+	background-size: 100% 150%;
+	background-position: 0 -25px;
+}
+
+.image2{
+	height:100%;
+	width: 100%;
+	background: url(images/VIP PRO Training.jpg);
+	bottom:0;
+	background-size: 100% 100%;
+	border-radius: 8px;
+	transition: 1s;
+}
+
+.program-white2:hover .image2{
+	transform: scale(0.5, 0.35); translate:(-650px); 
+	background-size: 100% 150%;
+	background-position: 0 -25px;
+}
+
+
+
+
+
+/*Footer*/
+
+.footer{
+	background: #595959;
+	color: white;
+	height: 25px;
+	position: absolute; 
+	bottom:-500px;
+	width: 100%;
+}
+
+
+
+
+	
+
+
+
+
